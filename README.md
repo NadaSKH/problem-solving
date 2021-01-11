@@ -1,3 +1,3 @@
 # problem-solving-with-python
 
-algorithms and data structires problems solved with python
+algorithms and data structures problems solved with python
