@@ -6,16 +6,21 @@
 t = int(input())
 for _ in range(t):
     #length of the array
-    num = int(input())
+    A = list( map( int, input().split()))
+    num = A[0]
     #k
-    k = int(input())
-    arr = []
-    for _ in range(num):
-        arr.append(int(input()))
+    k = A[1]
+    arr =list(map(int, input().split()[:num]))
     while k>0:
         arr = [arr[-1]] + arr[:-1]
         k-=1
     print(*arr)
 
 
+# A = list( map( int, input().split()))
 
+# print(A[0])
+# N = int(input())
+	
+# PQT =list(map(int, input().split()[:N]))
+# print(*PQT)
