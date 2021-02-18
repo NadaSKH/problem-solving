@@ -13,10 +13,6 @@ for _ in range(t):
     #k
     k = A[1]
     arr =list(map(int, input().split()[:num]))
-    # while k>0:
-    #     arr = [arr[-1]] + arr[:-1]
-    #     k-=1
-    # print(*arr)
     print(*(arr[num-(k%num):]+arr[:num-(k%num)]))
        
 
